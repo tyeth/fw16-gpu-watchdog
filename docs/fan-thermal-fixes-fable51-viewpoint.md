@@ -10,7 +10,7 @@ Nothing here was executed against hardware; all offsets/line numbers verified ag
 
 ## Part 1 — Where the mainline framing is wrong
 
-### Thesis 1: The 4700 RPM "cap" is not a defect. It's the only validated operating point.
+### Thesis 1: ~~The 4700 RPM "cap" is not a defect. It's the only validated operating point.~~ [REVISED in Round 2 — substantially conceded]
 
 The mainline reads the EEPROM fan block as the EC "leaving 40% of fan capacity on the
 table." Flip it around: the **mainboard devicetree** maxes the fans at **4000/3700 RPM**
@@ -19,10 +19,14 @@ table." Flip it around: the **mainboard devicetree** maxes the fans at **4000/37
 certainly the acoustic/vibration/bearing-life point Framework actually qualified for
 long sessions. "80% duty measured 6105 RPM" proves the motor spins there; it proves
 nothing about resonance, tach stability under load, dust loading, or bearing life at
-7600 RPM × 4-hour gaming sessions. Momentary capability ≠ continuous rating. If you
-want more airflow, take it deliberately (Part 2), but stop calling the stock number a bug.
+7600 RPM × 4-hour gaming sessions. Momentary capability ≠ continuous rating.
+~~If you want more airflow, take it deliberately (Part 2), but stop calling the stock
+number a bug.~~ *[revised: the 2026-09-03 incident log shows this operating point
+saturating at minute 4 of a gaming session and then letting chassis ambient ride its
+own 87°C warn threshold — see Round 2. The "why 4700" defense stands; the "4700 is
+adequate" conclusion does not.]*
 
-### Thesis 2: "The APU reads too hot" is chasing the wrong variable.
+### Thesis 2: "The APU reads too hot" is chasing the wrong variable. [PARTIALLY REVISED in Round 2 — die half stands, remedy half conceded]
 
 A Ryzen AI 300 die soaking at 91°C under sustained combined load is *the SMU doing its
 job*: STAPM/PMF deliberately converges near the thermal target and trades die temp for
@@ -31,9 +35,13 @@ and HALT is 108°C (`thermal.c` line 334). What users can actually feel is **ski
 and that is exactly what the descriptor's custom_temp block controls: the APU *board*
 sensor band 47→62°C. During gaming that board sensor exceeds 62°C, demands 100%, and
 pins the fans at 4700 — the max-of-sensors policy is already saturated by the skin
-proxy, not the die. Doubling fan noise to move a SMU-regulated die from 91 to ~85°C is
-a bad trade; if 91°C offends, lower the *power/thermal target* (PMF/tctl), don't shout
-at the fans. The one legitimate gripe: the die band 50→97°C (`thermal.c` uses
+proxy, not the die. ~~Doubling fan noise to move a SMU-regulated die from 91 to ~85°C
+is a bad trade; if 91°C offends, lower the *power/thermal target* (PMF/tctl), don't
+shout at the fans.~~ *[revised: the incident log empirically refutes the remedy — the
+EC's own 45W APU clamp landed one second after the WARN and chassis ambient still
+climbed another 12°C, because the ~99W GPU, not the APU, owns the heat budget. When
+the system-level sensors are the ones tripping warn thresholds, airflow (or a GPU
+power cap) is the fix; tctl is not. See Round 2.]* The one legitimate gripe: the die band 50→97°C (`thermal.c` uses
 thermal_params[TEMP_APU_DIE]) means the die alone never demands 100% until 97°C — but
 per above, the board sensor gets there first anyway.
 
@@ -46,9 +54,12 @@ sick **EC→SMU SB-RMI mailbox** is the **disease**, for three code-level reason
 1. **Every gentle rung of the safety ladder acts through SB-RMI.** LEVEL_TUNE_PLS and
    LEVEL_DISABLE_GPU (`cpu_power.c` lines 170–237) adjust SPL/SPPT/FPPT via
    `set_pl_limits()` → `sb_rmi_mailbox_xfer()` (`amd_cpu_power_interface.c` lines 39–112).
-   If the mailbox times out — and `logs/ec-console-20260903.log` shows **32
-   `SB-SMI: Mailbox transfer timeout` / `SB-RMI Error: 4` entries in one ordinary day**
-   (`driver/sb_rmi.c` lines 336/414) — those rungs are silent no-ops. The battery keeps
+   If the mailbox times out (`driver/sb_rmi.c` lines 336/414) — ~~and
+   `logs/ec-console-20260903.log` shows **32 timeout entries in one ordinary day**~~
+   *[CORRECTED in Round 2: that count was ring-buffer overlap double-counting;
+   deduplicated, the day contains exactly **2** unique timeout events, both at
+   22:11–22:13, after the incident. The chronic-illness premise is withdrawn]* —
+   those rungs are silent no-ops. The battery keeps
    over-discharging, and the ladder falls through to the only SB-RMI-independent lever
    it has: the hard PROCHOT GPIO (`cpu_power.c` line 241). The ladder isn't vicious;
    it's *blind*, because its hands don't work.
@@ -186,21 +197,96 @@ reproduced exactly, so the layout below is certain):
 
 ---
 
-## Part 3 — The order I'd actually do things
+## Part 3 — The order I'd actually do things [re-ranked in Round 2]
 
-1. **F0** — SPR-only charging for the next gaming sessions. It's the experiment *and*
-   the mitigation. Keep the watchdog logging; 0x3E22 bit1-vs-bit4 during any incident
-   adjudicates Thesis 3.
-2. **F1** — tctl/PMF target if the 91°C soak genuinely bothers you. It's the correct
-   knob and it also unpins the fans.
-3. **F2** — userspace fan loop, only if after F1 you still want more airflow, and only
-   with both failsafes. Cap at ~80% duty.
-4. **F4-as-a-PR** — upstream the EPR retry patch. High leverage, zero personal risk.
-5. **F3** — descriptor patch, last, only if F2 proved sustained >4700 RPM is actually
-   worth the noise and you want it EC-native. Modest values (5800), original bin backed up.
-6. **F4-as-a-flash** — don't.
+1. **F0** — SPR-only charging for the next gaming sessions. Unchanged: it targets the
+   *reboot-class* incidents (Kernel-Power 41 + power events), which the 22:10 stall
+   was not. Keep the watchdog; 0x3E22 bit1-vs-bit4 still adjudicates Thesis 3.
+2. **F2** — userspace fan loop *[promoted from #3]*: the incident data shows the
+   thermal problem is real, system-level, and airflow-starved. Drive duty from
+   **gpu_vr and ambient**, not just the APU sensors; cap ~80% duty; both failsafes.
+3. **GPU power cap** *(new, folded into F1's slot)*: `nvidia-smi -pl 80` (from stock
+   ~100W) attacks the actual heat source; reversible per boot, costs ~5-8% frames.
+   The old F1 (tctl/PMF for the APU) is demoted to cosmetic — see Thesis 2 revision.
+4. **F3** — descriptor patch *[promoted]*: now evidence-backed rather than
+   vibes-backed. Still modest values (5800/5628), still with the custom_temp
+   compensation, still with the original bin guarded like a BIOS backup. Doing F2
+   first as the cheap trial of ">4700 actually helps" remains the right order.
+5. **F4-as-a-PR** — upstream the EPR retry patch. Unchanged.
+6. **F4-as-a-flash** — still don't.
 
-The uncomfortable summary: the fan system is working as designed, the design goal
+~~The uncomfortable summary: the fan system is working as designed, the design goal
 (quiet skin temps) is defensible, and the machine that's actually broken is the one
-nobody can see from Windows — an EC that asks the SMU to throttle politely over a
-mailbox that times out 32 times a day, then panics with a GPIO when nobody answers.
+nobody can see from Windows.~~ *[revised — see Round 2 for the summary that survived
+cross-examination.]*
+
+---
+
+## Round 2 — under cross-examination (2026-09-03, incident 20260903-221003)
+
+I re-derived every claim below from the raw logs myself (dedup script over the EC
+console ring dumps; UTF-8 parse of `framework-20260903.log` with the label-bug mapping
+"dGPU VRAM"→gpu_vr, "F75303_Local"→ambient; watchdog CSV). The rebuttal's substance is
+right; two of its details are wrong. Scorecard:
+
+**Conceded, Thesis 1 (mostly).** The timeline is damning: fans hit the 4700 ceiling at
+21:41, ~4 minutes into the session, with the APU board sensor already past its 62°C
+saturation point — 100% of the descriptor's authority was spent before the sensor that
+ultimately tripped WARN had even started moving. gpu_vr then climbed 54→73°C in ~75s
+(21:44:04→21:45:19), crossed the NV table's 71°C warn (`thermal.c` line 347), and the
+EC asserted `thermal WARN` + soft AP throttle at uptime 35404.6 (≈21:45:50). It **never
+released** — release requires 60°C (line 351) and gpu_vr sat at 84–86°C until the
+stall; there is no "throttling type 0 to off" anywhere in the day's log. By 21:57
+chassis ambient reached **87°C — exactly its own warn/high threshold**
+(`lotus/overlay.dtsi` lines 14–15), a monotonic 67→87 climb over 20 minutes at
+constant max fan: no equilibrium short of the warn line, i.e. zero margin. And from
+21:59:41 the NVIDIA driver itself began SW thermal slowdown (nvml reason 0x20 in the
+CSV). An operating point that does that during the advertised workload is
+under-provisioned. What I still hold from Thesis 1: the *explanation* (acoustic/
+bearing qualification vs. the DT's 4000/3700 baseline) and the corollary that the fix
+is a deliberate, bounded raise (5800-class), not "pin it at 7600."
+
+**Half-conceded, Thesis 2.** The half that stands: the die tripped nothing — die warn
+is 105°C, it peaked ~97; the sensors that asserted WARN are precisely the unfiltered
+board/system sensors I said were the right control targets. The user's instinct
+("something is too hot") was right even though the *variable* they were watching (APU
+die) was the one sensor behaving by design. The half that falls: my prescribed remedy.
+The EC clamped the APU to SPL/sPPT 45W at uptime 35405.7 — one second after WARN — and
+ambient still climbed another 12°C, because the GPU held ~99W steady for the next 15
+minutes. tctl/PMF tuning cannot fix an 87°C chassis; only airflow or a GPU power cap
+can. F1 is demoted accordingly and a GPU `-pl` cap takes its slot.
+
+**Held, Thesis 3's structure; conceded its headline number; rebutting the rebuttal's
+chaining claim.** My "32 timeouts in one ordinary day" was ring-buffer double-counting
+— deduplicated, the entire day contains **two** unique SB-RMI timeout events, at
+22:11:17 and 22:13:17, *after* the system had already recovered (CSV shows normal
+5s cadence, GPU at 17W, game gone from 22:07:11). That is not a chronically sick link;
+withdrawn. But the coordinator's improvement — "17 minutes of soft throttle = 17
+minutes of continuous SB-RMI traffic parking the machine in the mailbox kill zone" —
+is also wrong on this data: `set_pl_limits()` fires on *change*, not per loop
+(`cpu_power.c` lines 563–569), the 45W clamp was written once and the logged `PMF:`
+line is the success path (line 587), and there are zero RMI errors during the entire
+16-minute WARN window. Neither of us gets to blame the mailbox for this incident.
+The structural claim — every gentle ladder rung and the PROCHOT release path route
+through SB-RMI, so a mailbox failure degrades the EC to its bluntest instrument —
+remains true as code and remains untested by this event.
+
+**Weakened, Thesis 4 — honesty requires saying so.** This stall (logger gap
+22:01:32→22:07:11, no reboot: EC uptime runs continuously through it, CPU never
+clamped, cpu%max=100 before and after) followed 16 minutes of thermal saturation and
+active GPU thermal throttling. That is a thermal-preceded incident, and my "zero
+causal path from temps to incidents" was too absolute — it now reads: *no causal path
+to the reboot-class (Kernel-Power 41 + power-event) incidents; the stall-class may
+well be thermally seeded (game/driver collapse under 86°C VR), pending more samples.*
+One point I keep, now with data: the mainline's "thermal edge → battery assist →
+crash exposure" bridge is still unsupported — peak battery discharge during the entire
+soak was **4.6W (~0.26A), a factor of ~20 below** the 5.49A ladder threshold. The
+safety ladder was never in play.
+
+**Revised summary:** the fan hardware is under-commanded, the thermal problem is real
+and lives in the GPU/chassis system sensors rather than the APU die, the crash story
+is (at least) two distinct failure classes — power-event reboots and thermal-preceded
+stalls — and the SB-RMI mailbox is a proven structural liability that has not yet been
+caught in the act. The fixes that got stronger tonight are the boring ones: more
+airflow, less GPU power. The fix that got weaker is the one I liked most. That's what
+the data is for.

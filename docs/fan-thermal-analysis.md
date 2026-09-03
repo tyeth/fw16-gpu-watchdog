@@ -49,9 +49,23 @@ why the fan ignores the die bouncing 54→74°C over seconds.
   die 63°C → input 2 gives 28%; GPU cold → 0%. Predicted ≈ 3100/3000 RPM,
   observed **3081/2987 RPM**. Model matches measurement.
 - Gaming (Battlefield): fans pinned at 4703/4551 RPM (= the EEPROM ceiling)
-  with APU die at **91°C** and the EC logging `thermal WARN` (87°C host
-  threshold) — which in turn triggers PMF power-limit clamping
-  (`SPL 45000mW…`). The controller was saturated, not lazy.
+  with APU die at **91°C**. The controller was saturated, not lazy.
+
+### Which sensor actually asserted `thermal WARN` (corrected 2026-09-03)
+
+The 21:44:54 `thermal WARN` → soft AP throttle → PMF power-limit application
+was tripped by **`gpu_vr_f75303` crossing the NVIDIA GPU table's 71°C warn
+threshold** (it rose 55→65°C in the preceding 30s, crossed ~71°C at the WARN
+timestamp, climbed to 81°C, and never fell below the 60°C release — the soft
+thermal throttle stayed asserted for the remaining ~17 minutes until the
+freeze). The APU die (82°C at that moment, warn threshold 105°C) tripped
+nothing — die peakiness is irrelevant here since the tripping sensors are
+slow thermal-mass board sensors. By 21:59 **chassis ambient (`ambient_f75303`)
+reached 87°C**, its own warn threshold. In other words: the overtemp
+assertions were real, system-level measurements — a VR sensor 10°C past its
+warn point and near-90°C air inside the chassis — while 40% of fan capacity
+sat unused. (Beware the label bug below when reading the raw logs: `gpu_vr`
+prints as "dGPU VRAM" and `ambient` prints as "F75303_Local".)
 
 ## Why the APU "reads too hot most of the time"
 
@@ -68,9 +82,23 @@ Three compounding design choices:
    past that point only the slow filtered die input matters, and it asks for
    less than the board sensor already did.
 
-Net effect: at heavy combined load the system rides the thermal-WARN
-threshold (87°C) and lets PMF cut power (SPL/sPPT 45W) rather than spend the
-fan headroom that exists in hardware.
+Net effect: at heavy combined load the system crosses real board-sensor warn
+thresholds (GPU VR at 71°C within minutes of the fans saturating, chassis
+ambient climbing monotonically to 87°C — exactly its own warn threshold —
+with the NVIDIA driver itself thermal-throttling from 21:59) and holds a soft
+thermal throttle asserted indefinitely, rather than spend the fan headroom
+that exists in hardware.
+
+*(Correction, after cross-examination by the Fable 5.1 fork: an earlier
+revision claimed the sustained throttle implied continuous SB-RMI mailbox
+traffic. That was wrong — `set_pl_limits` fires on change, the 45W clamp was
+written once, successfully, and zero SB-RMI errors occurred during the WARN
+window. The structural risk is narrower: any future limit *change or release*
+depends on that mailbox. Likewise, battery-assist discharge in this incident
+peaked at ~4.6W ≈ 0.26A — ~20× below the 5.49A safety-ladder threshold — so
+the EPR/safety-ladder mechanism was NOT demonstrated by the 2026-09-03 stall;
+it remains the leading theory only for the earlier power-event-preceded
+reboots. See the fork's Round 2 section for the full incident re-classification.)*
 
 Related bug found on the way: **framework_tool v0.6.5 mislabels the FW16
 sensors** (verified via `EC_CMD_TEMP_SENSOR_GET_INFO` 0x0070): the line
