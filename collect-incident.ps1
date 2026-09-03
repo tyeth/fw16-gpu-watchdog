@@ -17,7 +17,7 @@ Get-ChildItem (Join-Path $PSScriptRoot 'logs') -File -ErrorAction SilentlyContin
 $since = (Get-Date).AddHours(-48).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ss.000Z')
 wevtutil qe System  /q:"*[System[TimeCreated[@SystemTime>='$since']]]" /f:xml > (Join-Path $out 'system-48h.xml')
 wevtutil qe Application /q:"*[System[TimeCreated[@SystemTime>='$since']]]" /f:xml > (Join-Path $out 'application-48h.xml')
-foreach ($ch in @('Microsoft-Windows-Kernel-Power/Thermal-Operational','Microsoft-Windows-Thermal-Polite/Operational')) {
+foreach ($ch in @('Microsoft-Windows-Kernel-Power/Thermal-Operational','Microsoft-Windows-Thermal-Polite/Operational','Microsoft-Windows-DxgKrnl-Operational','Microsoft-Windows-DxgKrnl-Admin')) {
     $safe = ($ch -replace '[/\\]','-') + '.xml'
     wevtutil qe $ch /q:"*[System[TimeCreated[@SystemTime>='$since']]]" /f:xml 2>$null > (Join-Path $out $safe)
 }
