@@ -1,0 +1,36 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260903210344
+Username: FRAMEWORK16\tyeth
+RunAs User: FRAMEWORK16\tyeth
+Configuration Name: 
+Machine: FRAMEWORK16 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\tyeth\Downloads\gh_madness\gpu-watchdog\setup-watchdog.ps1
+Process ID: 24164
+PSVersion: 5.1.26100.9168
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9168
+BuildVersion: 10.0.26100.9168
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+schtasks : ERROR: The system cannot find the file specified.
+At C:\Users\tyeth\Downloads\gh_madness\gpu-watchdog\setup-watchdog.ps1:16 char:1
++ schtasks /End /TN $TaskName 2>$null | Out-Null
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ERROR: The syst...file specified.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+Task 'GpuPowerWatchdog' registered.
+Task state: Running
+Enabled channel: Microsoft-Windows-Kernel-Power/Thermal-Operational
+Channel not available: Microsoft-Windows-Thermal-Polite/Operational
+
+System event log size set to 64MB.
+Setup complete.
+**********************
+Windows PowerShell transcript end
+End time: 20260903210350
+**********************

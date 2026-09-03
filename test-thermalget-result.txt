@@ -1,0 +1,21 @@
+probe start 2026-09-03T22:38:14.4454774+01:00
+== sensor 0 ambient_f75303 ==
+EC command failed: Response(InvalidCommand)
+== sensor 1 charger_f75303 ==
+EC command failed: Response(InvalidCommand)
+== sensor 2 apu_f75303 ==
+EC command failed: Response(InvalidCommand)
+== sensor 3 apu_die ==
+EC command failed: Response(InvalidCommand)
+== sensor 4 gpu_amb ==
+EC command failed: Response(InvalidCommand)
+== sensor 5 gpu_vr ==
+EC command failed: Response(InvalidCommand)
+== sensor 6 gpu_vram ==
+EC command failed: Response(InvalidCommand)
+== sensor 7 gpu_die ==
+EC command failed: Response(InvalidCommand)
+== gpu descriptor dump ==
+Dumping to C:\Users\tyeth\Downloads\gh_madness\gpu-watchdog\gpu-descriptor.bin
+Wrote 201 bytes to C:\Users\tyeth\Downloads\gh_madness\gpu-watchdog\gpu-descriptor.bin
+probe done
