@@ -1,0 +1,48 @@
+﻿Right / Ports 01
+  Silicon ID:     0x3580
+  Mode:           MainFw
+  Flash Row Size: 256 B
+  Ports Enabled:  0, 1
+  Bootloader Version:   Base: 3.6.0.009,  App: 0.0.01
+  FW1 (Backup) Version: Base: 3.7.0.197,  App: 0.0.22
+  FW2 (Main)   Version: Base: 3.7.0.197,  App: 0.0.22
+Left / Ports 23
+  Silicon ID:     0x3580
+  Mode:           MainFw
+  Flash Row Size: 256 B
+  Ports Enabled:  0, 1
+  Bootloader Version:   Base: 3.6.0.009,  App: 0.0.01
+  FW1 (Backup) Version: Base: 3.7.0.197,  App: 0.0.22
+  FW2 (Main)   Version: Base: 3.7.0.197,  App: 0.0.22
+Back
+  Silicon ID:     0x3581
+  Mode:           MainFw
+  Flash Row Size: 256 B
+  Ports Enabled:  0
+  Bootloader Version:   Base: 3.6.0.009,  App: 0.0.01
+  FW1 (Backup) Version: Base: 3.7.0.197,  App: 0.0.22
+  FW2 (Main)   Version: Base: 3.7.0.197,  App: 0.0.22
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
