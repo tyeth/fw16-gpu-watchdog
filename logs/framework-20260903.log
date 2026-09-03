@@ -53915,3 +53915,4069 @@ Response (26 bytes):
 00000010: 0000 0000 0000 0000 0000                 ..........
 GPIO h_prochot_l:
 GPIO h_prochot_l: true
+--- 2026-09-03 23:50:55.186 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.438 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.447 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 56 C
+  F75303_CPU:   50 C
+  F75303_DDR:   50 C
+  APU:          58 C
+  dGPU VR:      45 C
+  dGPU VRAM:    44 C
+  dGPU AMB:     45 C
+  dGPU temp:    44 C
+  Left Fan:   1876 RPM
+  Right Fan:  1793 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:51:10.224 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.438 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.447 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 56 C
+  F75303_CPU:   50 C
+  F75303_DDR:   51 C
+  APU:          53 C
+  dGPU VR:      45 C
+  dGPU VRAM:    45 C
+  dGPU AMB:     45 C
+  dGPU temp:    45 C
+  Left Fan:   1985 RPM
+  Right Fan:  1912 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:51:10.224 (slow) ---
+Expansion Bay
+  Enabled:       true
+  No fault:      true
+  Door closed:   true
+  Board:         DualInterposer
+  Serial Number: FRAKMQCPA15424004M  
+  Config:        Pcie8x1
+  Vendor:        NvidiaGn22
+  Expansion Bay EEPROM
+    Valid:       true
+    HW Version:  4.0
+EC Uptime
+  Time since EC Boot:      11h 56m 41s
+  AP Resets since EC Boot: 3
+  EC Reset Flags
+    PowerOn
+    Hibernate
+  Recent AP Resets
+      Reset Time:          10h 10m 11s
+            Cause:         ShutdownG3
+      Reset Time:          11h 37m 21s
+            Cause:         ShutdownG3
+      Reset Time:          11h 42m 46s
+            Cause:         ShutdownG3
+Minimum 0%, Maximum 100%
+GPIO dump:
+ec_soc_rsmrst_l                  1
+ec_espi_rst_l                    0
+ec_sci_l                         1
+ovp                              1
+ec_smb_ck0                       0
+ec_smb_da0                       0
+ec_smb_ck1                       0
+ec_smb_da1                       0
+ec_smb_ck2                       0
+ec_smb_da2                       0
+ec_smb_ck3                       0
+ec_smb_da3                       0
+ec_smb_ck4                       0
+ec_smb_da4                       0
+ec_smb_s0_ck5                    0
+ec_smb_s0_da5                    0
+ssd2_pwr_en                      1
+ssd_gpu_sel                      0
+ec_smb_ck6                       0
+ec_smb_da6                       0
+ec_smb_ck7                       0
+ec_smb_da7                       0
+mic_sw                           0
+gpu_b_gpio00_ec                  1
+gpu_b_gpio01_ec                  1
+gpu_b_gpio02_ec                  1
+gpu_b_gpio03_ec                  0
+fp_en                            1
+5valw_c_en                       1
+gpu_b_dp_hpd                     0
+ec_mute_l                        1
+gpu_3v_5v_en                     1
+wlan_en                          1
+gpu_vsys_en                      1
+apu_ec_int_l                     1
+rtc_dis                          0
+gpu_vdap_en                      1
+ec_pwm_en                        1
+ac_present_pd_l                  1
+sm_panel_bken_ec                 1
+ec_b2b_dis                       0
+gpu_fan_en                       1
+usb30_hub_en                     1
+module_oc_l                      1
+ec_edp_reset                     1
+gpu_alert_l                      1
+on_off_btn_l                     1
+chassis_open_l                   1
+hw_acav_in                       1
+lid_sw_l                         1
+0p75_1p8valw_pwren               1
+hub_b_pwr_en                     1
+als_int_l                        1
+pch_pwr_en                       1
+h_prochot_l                      1
+slp_s3_l                         1
+slp_s5_l                         1
+cam_en                           1
+sys_pwrgd_ec                     1
+vr_on                            1
+susp_l                           1
+left_side                        0
+right_side                       1
+syson                            1
+ec_edp_pwm                       0
+fp_control                       0
+battery_present                  0
+mux_a0                           0
+mux_a1                           0
+mux_a2                           1
+f_beam_open_l                    1
+enbkl_apu                        1
+0p75vs_pwr_en                    1
+apu_aud_pwr_en                   1
+i2c_int_tp_1                     1
+i2c_int_tp_2                     1
+cam_sw                           0
+spok                             1
+vr_pwrgd                         1
+gpu_i2c_s5_int                   1
+usb_hub_re_en                    1
+wl_rst_l                         1
+ec_sense_al                      1
+en_invpwr                        1
+sleep_l                          1
+pd_b_i2c_int_ec_l                1
+pd_a_i2c_int_ec_l                1
+pbtn_out_l                       1
+thermtrip                        1
+dgpu_pwr_en                      1
+apu_ec_int2_l                    1
+ssd1_pwr_en                      1
+edp_mux_pwm_sw                   0
+--- 2026-09-03 23:51:25.255 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.433 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.446 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 56 C
+  F75303_CPU:   51 C
+  F75303_DDR:   51 C
+  APU:          48 C
+  dGPU VR:      46 C
+  dGPU VRAM:    45 C
+  dGPU AMB:     46 C
+  dGPU temp:    43 C
+  Left Fan:   1865 RPM
+  Right Fan:  1703 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:51:40.292 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.438 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.447 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 57 C
+  F75303_CPU:   51 C
+  F75303_DDR:   51 C
+  APU:          60 C
+  dGPU VR:      45 C
+  dGPU VRAM:    45 C
+  dGPU AMB:     44 C
+  dGPU temp:    44 C
+  Left Fan:   1774 RPM
+  Right Fan:  1703 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:51:55.329 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.433 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.446 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 56 C
+  F75303_CPU:   51 C
+  F75303_DDR:   51 C
+  APU:          47 C
+  dGPU VR:      45 C
+  dGPU VRAM:    45 C
+  dGPU AMB:     45 C
+  dGPU temp:    45 C
+  Left Fan:   1771 RPM
+  Right Fan:  1700 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:52:10.363 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.438 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.447 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 57 C
+  F75303_CPU:   51 C
+  F75303_DDR:   51 C
+  APU:          48 C
+  dGPU VR:      46 C
+  dGPU VRAM:    45 C
+  dGPU AMB:     46 C
+  dGPU temp:    45 C
+  Left Fan:   1771 RPM
+  Right Fan:  1703 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:52:10.363 (slow) ---
+Expansion Bay
+  Enabled:       true
+  No fault:      true
+  Door closed:   true
+  Board:         DualInterposer
+  Serial Number: FRAKMQCPA15424004M  
+  Config:        Pcie8x1
+  Vendor:        NvidiaGn22
+  Expansion Bay EEPROM
+    Valid:       true
+    HW Version:  4.0
+EC Uptime
+  Time since EC Boot:      11h 57m 42s
+  AP Resets since EC Boot: 3
+  EC Reset Flags
+    PowerOn
+    Hibernate
+  Recent AP Resets
+      Reset Time:          10h 10m 11s
+            Cause:         ShutdownG3
+      Reset Time:          11h 37m 21s
+            Cause:         ShutdownG3
+      Reset Time:          11h 42m 46s
+            Cause:         ShutdownG3
+Minimum 0%, Maximum 100%
+GPIO dump:
+ec_soc_rsmrst_l                  1
+ec_espi_rst_l                    0
+ec_sci_l                         1
+ovp                              1
+ec_smb_ck0                       0
+ec_smb_da0                       0
+ec_smb_ck1                       0
+ec_smb_da1                       0
+ec_smb_ck2                       0
+ec_smb_da2                       0
+ec_smb_ck3                       0
+ec_smb_da3                       0
+ec_smb_ck4                       0
+ec_smb_da4                       0
+ec_smb_s0_ck5                    0
+ec_smb_s0_da5                    0
+ssd2_pwr_en                      1
+ssd_gpu_sel                      0
+ec_smb_ck6                       0
+ec_smb_da6                       0
+ec_smb_ck7                       0
+ec_smb_da7                       0
+mic_sw                           0
+gpu_b_gpio00_ec                  1
+gpu_b_gpio01_ec                  1
+gpu_b_gpio02_ec                  1
+gpu_b_gpio03_ec                  0
+fp_en                            1
+5valw_c_en                       1
+gpu_b_dp_hpd                     0
+ec_mute_l                        1
+gpu_3v_5v_en                     1
+wlan_en                          1
+gpu_vsys_en                      1
+apu_ec_int_l                     1
+rtc_dis                          0
+gpu_vdap_en                      1
+ec_pwm_en                        1
+ac_present_pd_l                  1
+sm_panel_bken_ec                 1
+ec_b2b_dis                       0
+gpu_fan_en                       1
+usb30_hub_en                     1
+module_oc_l                      1
+ec_edp_reset                     1
+gpu_alert_l                      1
+on_off_btn_l                     1
+chassis_open_l                   1
+hw_acav_in                       1
+lid_sw_l                         1
+0p75_1p8valw_pwren               1
+hub_b_pwr_en                     1
+als_int_l                        1
+pch_pwr_en                       1
+h_prochot_l                      1
+slp_s3_l                         1
+slp_s5_l                         1
+cam_en                           1
+sys_pwrgd_ec                     1
+vr_on                            1
+susp_l                           1
+left_side                        0
+right_side                       1
+syson                            1
+ec_edp_pwm                       1
+fp_control                       0
+battery_present                  0
+mux_a0                           0
+mux_a1                           1
+mux_a2                           1
+f_beam_open_l                    1
+enbkl_apu                        1
+0p75vs_pwr_en                    1
+apu_aud_pwr_en                   1
+i2c_int_tp_1                     1
+i2c_int_tp_2                     1
+cam_sw                           0
+spok                             1
+vr_pwrgd                         1
+gpu_i2c_s5_int                   1
+usb_hub_re_en                    1
+wl_rst_l                         1
+ec_sense_al                      1
+en_invpwr                        1
+sleep_l                          1
+pd_b_i2c_int_ec_l                1
+pd_a_i2c_int_ec_l                1
+pbtn_out_l                       1
+thermtrip                        1
+dgpu_pwr_en                      1
+apu_ec_int2_l                    1
+ssd1_pwr_en                      1
+edp_mux_pwm_sw                   0
+--- 2026-09-03 23:52:25.391 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.433 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.446 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 57 C
+  F75303_CPU:   52 C
+  F75303_DDR:   50 C
+  APU:          47 C
+  dGPU VR:      47 C
+  dGPU VRAM:    46 C
+  dGPU AMB:     47 C
+  dGPU temp:    46 C
+  Left Fan:   1590 RPM
+  Right Fan:  1630 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:52:40.425 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.433 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.446 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   51 C
+  F75303_DDR:   51 C
+  APU:          60 C
+  dGPU VR:      49 C
+  dGPU VRAM:    46 C
+  dGPU AMB:     49 C
+  dGPU temp:    47 C
+  Left Fan:   1981 RPM
+  Right Fan:  1800 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:52:55.451 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.438 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.447 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   51 C
+  F75303_DDR:   51 C
+  APU:          58 C
+  dGPU VR:      49 C
+  dGPU VRAM:    47 C
+  dGPU AMB:     49 C
+  dGPU temp:    47 C
+  Left Fan:   1876 RPM
+  Right Fan:  1800 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:53:10.491 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.438 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.447 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 57 C
+  F75303_CPU:   52 C
+  F75303_DDR:   50 C
+  APU:          49 C
+  dGPU VR:      49 C
+  dGPU VRAM:    48 C
+  dGPU AMB:     49 C
+  dGPU temp:    48 C
+  Left Fan:   1876 RPM
+  Right Fan:  1793 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:53:10.491 (slow) ---
+Expansion Bay
+  Enabled:       true
+  No fault:      true
+  Door closed:   true
+  Board:         DualInterposer
+  Serial Number: FRAKMQCPA15424004M  
+  Config:        Pcie8x1
+  Vendor:        NvidiaGn22
+  Expansion Bay EEPROM
+    Valid:       true
+    HW Version:  4.0
+EC Uptime
+  Time since EC Boot:      11h 58m 42s
+  AP Resets since EC Boot: 3
+  EC Reset Flags
+    PowerOn
+    Hibernate
+  Recent AP Resets
+      Reset Time:          10h 10m 11s
+            Cause:         ShutdownG3
+      Reset Time:          11h 37m 21s
+            Cause:         ShutdownG3
+      Reset Time:          11h 42m 46s
+            Cause:         ShutdownG3
+Minimum 0%, Maximum 100%
+GPIO dump:
+ec_soc_rsmrst_l                  1
+ec_espi_rst_l                    0
+ec_sci_l                         1
+ovp                              1
+ec_smb_ck0                       0
+ec_smb_da0                       0
+ec_smb_ck1                       0
+ec_smb_da1                       0
+ec_smb_ck2                       0
+ec_smb_da2                       0
+ec_smb_ck3                       0
+ec_smb_da3                       0
+ec_smb_ck4                       0
+ec_smb_da4                       0
+ec_smb_s0_ck5                    0
+ec_smb_s0_da5                    0
+ssd2_pwr_en                      1
+ssd_gpu_sel                      0
+ec_smb_ck6                       0
+ec_smb_da6                       0
+ec_smb_ck7                       0
+ec_smb_da7                       0
+mic_sw                           0
+gpu_b_gpio00_ec                  1
+gpu_b_gpio01_ec                  1
+gpu_b_gpio02_ec                  1
+gpu_b_gpio03_ec                  0
+fp_en                            1
+5valw_c_en                       1
+gpu_b_dp_hpd                     0
+ec_mute_l                        1
+gpu_3v_5v_en                     1
+wlan_en                          1
+gpu_vsys_en                      1
+apu_ec_int_l                     1
+rtc_dis                          0
+gpu_vdap_en                      1
+ec_pwm_en                        1
+ac_present_pd_l                  1
+sm_panel_bken_ec                 1
+ec_b2b_dis                       0
+gpu_fan_en                       1
+usb30_hub_en                     1
+module_oc_l                      1
+ec_edp_reset                     1
+gpu_alert_l                      1
+on_off_btn_l                     1
+chassis_open_l                   1
+hw_acav_in                       1
+lid_sw_l                         1
+0p75_1p8valw_pwren               1
+hub_b_pwr_en                     1
+als_int_l                        1
+pch_pwr_en                       1
+h_prochot_l                      1
+slp_s3_l                         1
+slp_s5_l                         1
+cam_en                           1
+sys_pwrgd_ec                     1
+vr_on                            1
+susp_l                           1
+left_side                        0
+right_side                       1
+syson                            1
+ec_edp_pwm                       1
+fp_control                       0
+battery_present                  0
+mux_a0                           0
+mux_a1                           0
+mux_a2                           1
+f_beam_open_l                    1
+enbkl_apu                        1
+0p75vs_pwr_en                    1
+apu_aud_pwr_en                   1
+i2c_int_tp_1                     1
+i2c_int_tp_2                     1
+cam_sw                           0
+spok                             1
+vr_pwrgd                         1
+gpu_i2c_s5_int                   1
+usb_hub_re_en                    1
+wl_rst_l                         1
+ec_sense_al                      1
+en_invpwr                        1
+sleep_l                          1
+pd_b_i2c_int_ec_l                1
+pd_a_i2c_int_ec_l                1
+pbtn_out_l                       1
+thermtrip                        1
+dgpu_pwr_en                      1
+apu_ec_int2_l                    1
+ssd1_pwr_en                      1
+edp_mux_pwm_sw                   0
+--- 2026-09-03 23:53:25.532 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.438 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.447 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 57 C
+  F75303_CPU:   52 C
+  F75303_DDR:   50 C
+  APU:          48 C
+  dGPU VR:      50 C
+  dGPU VRAM:    49 C
+  dGPU AMB:     50 C
+  dGPU temp:    48 C
+  Left Fan:   1876 RPM
+  Right Fan:  1793 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:53:40.553 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.438 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.447 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 57 C
+  F75303_CPU:   52 C
+  F75303_DDR:   51 C
+  APU:          65 C
+  dGPU VR:      51 C
+  dGPU VRAM:    49 C
+  dGPU AMB:     51 C
+  dGPU temp:    48 C
+  Left Fan:   1890 RPM
+  Right Fan:  1787 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:53:55.598 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.443 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.448 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   53 C
+  F75303_DDR:   52 C
+  APU:          52 C
+  dGPU VR:      51 C
+  dGPU VRAM:    49 C
+  dGPU AMB:     51 C
+  dGPU temp:    49 C
+  Left Fan:   2184 RPM
+  Right Fan:  1993 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:54:10.653 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    88.438 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  17.447 V
+  Present Rate:     0 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 59 C
+  F75303_CPU:   52 C
+  F75303_DDR:   52 C
+  APU:          53 C
+  dGPU VR:      51 C
+  dGPU VRAM:    50 C
+  dGPU AMB:     51 C
+  dGPU temp:    49 C
+  Left Fan:   2065 RPM
+  Right Fan:  1981 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:54:10.653 (slow) ---
+Expansion Bay
+  Enabled:       true
+  No fault:      true
+  Door closed:   true
+  Board:         DualInterposer
+  Serial Number: FRAKMQCPA15424004M  
+  Config:        Pcie8x1
+  Vendor:        NvidiaGn22
+  Expansion Bay EEPROM
+    Valid:       true
+    HW Version:  4.0
+EC Uptime
+  Time since EC Boot:      11h 59m 42s
+  AP Resets since EC Boot: 3
+  EC Reset Flags
+    PowerOn
+    Hibernate
+  Recent AP Resets
+      Reset Time:          10h 10m 11s
+            Cause:         ShutdownG3
+      Reset Time:          11h 37m 21s
+            Cause:         ShutdownG3
+      Reset Time:          11h 42m 46s
+            Cause:         ShutdownG3
+Minimum 0%, Maximum 100%
+GPIO dump:
+ec_soc_rsmrst_l                  1
+ec_espi_rst_l                    0
+ec_sci_l                         1
+ovp                              1
+ec_smb_ck0                       0
+ec_smb_da0                       0
+ec_smb_ck1                       0
+ec_smb_da1                       0
+ec_smb_ck2                       0
+ec_smb_da2                       0
+ec_smb_ck3                       0
+ec_smb_da3                       0
+ec_smb_ck4                       0
+ec_smb_da4                       0
+ec_smb_s0_ck5                    0
+ec_smb_s0_da5                    0
+ssd2_pwr_en                      1
+ssd_gpu_sel                      0
+ec_smb_ck6                       0
+ec_smb_da6                       0
+ec_smb_ck7                       0
+ec_smb_da7                       0
+mic_sw                           0
+gpu_b_gpio00_ec                  1
+gpu_b_gpio01_ec                  1
+gpu_b_gpio02_ec                  1
+gpu_b_gpio03_ec                  0
+fp_en                            1
+5valw_c_en                       1
+gpu_b_dp_hpd                     0
+ec_mute_l                        1
+gpu_3v_5v_en                     1
+wlan_en                          1
+gpu_vsys_en                      1
+apu_ec_int_l                     1
+rtc_dis                          0
+gpu_vdap_en                      1
+ec_pwm_en                        1
+ac_present_pd_l                  1
+sm_panel_bken_ec                 1
+ec_b2b_dis                       0
+gpu_fan_en                       1
+usb30_hub_en                     1
+module_oc_l                      1
+ec_edp_reset                     1
+gpu_alert_l                      1
+on_off_btn_l                     1
+chassis_open_l                   1
+hw_acav_in                       1
+lid_sw_l                         1
+0p75_1p8valw_pwren               1
+hub_b_pwr_en                     1
+als_int_l                        1
+pch_pwr_en                       1
+h_prochot_l                      1
+slp_s3_l                         1
+slp_s5_l                         1
+cam_en                           1
+sys_pwrgd_ec                     1
+vr_on                            1
+susp_l                           1
+left_side                        0
+right_side                       1
+syson                            1
+ec_edp_pwm                       1
+fp_control                       0
+battery_present                  0
+mux_a0                           0
+mux_a1                           0
+mux_a2                           0
+f_beam_open_l                    1
+enbkl_apu                        1
+0p75vs_pwr_en                    1
+apu_aud_pwr_en                   1
+i2c_int_tp_1                     1
+i2c_int_tp_2                     1
+cam_sw                           0
+spok                             1
+vr_pwrgd                         1
+gpu_i2c_s5_int                   1
+usb_hub_re_en                    1
+wl_rst_l                         1
+ec_sense_al                      1
+en_invpwr                        1
+sleep_l                          1
+pd_b_i2c_int_ec_l                1
+pd_a_i2c_int_ec_l                1
+pbtn_out_l                       1
+thermtrip                        1
+dgpu_pwr_en                      1
+apu_ec_int2_l                    1
+ssd1_pwr_en                      1
+edp_mux_pwm_sw                   0
+--- 2026-09-03 23:54:25.674 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    85.255 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  16.819 V
+  Present Rate:     492 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 59 C
+  F75303_CPU:   53 C
+  F75303_DDR:   52 C
+  APU:          51 C
+  dGPU VR:      51 C
+  dGPU VRAM:    50 C
+  dGPU AMB:     50 C
+  dGPU temp:    48 C
+  Left Fan:   2275 RPM
+  Right Fan:  2170 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:54:40.703 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    84.485 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  16.667 V
+  Present Rate:     1920 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   52 C
+  F75303_DDR:   51 C
+  APU:          50 C
+  dGPU VR:      51 C
+  dGPU VRAM:    49 C
+  dGPU AMB:     51 C
+  dGPU temp:    48 C
+  Left Fan:   1901 RPM
+  Right Fan:  1977 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:54:55.724 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    83.162 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  16.406 V
+  Present Rate:     2690 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   52 C
+  F75303_DDR:   52 C
+  APU:          55 C
+  dGPU VR:      51 C
+  dGPU VRAM:    49 C
+  dGPU AMB:     51 C
+  dGPU temp:    49 C
+  Left Fan:   2065 RPM
+  Right Fan:  1973 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:55:10.734 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      98%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    83.151 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  16.404 V
+  Present Rate:     2913 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 57 C
+  F75303_CPU:   52 C
+  F75303_DDR:   52 C
+  APU:          51 C
+  dGPU VR:      52 C
+  dGPU VRAM:    49 C
+  dGPU AMB:     51 C
+  dGPU temp:    49 C
+  Left Fan:   2060 RPM
+  Right Fan:  1985 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:55:10.734 (slow) ---
+Expansion Bay
+  Enabled:       true
+  No fault:      true
+  Door closed:   true
+  Board:         DualInterposer
+  Serial Number: FRAKMQCPA15424004M  
+  Config:        Pcie8x1
+  Vendor:        NvidiaGn22
+  Expansion Bay EEPROM
+    Valid:       true
+    HW Version:  4.0
+EC Uptime
+  Time since EC Boot:      12h 00m 43s
+  AP Resets since EC Boot: 3
+  EC Reset Flags
+    PowerOn
+    Hibernate
+  Recent AP Resets
+      Reset Time:          10h 10m 11s
+            Cause:         ShutdownG3
+      Reset Time:          11h 37m 21s
+            Cause:         ShutdownG3
+      Reset Time:          11h 42m 46s
+            Cause:         ShutdownG3
+Minimum 0%, Maximum 80%
+GPIO dump:
+ec_soc_rsmrst_l                  1
+ec_espi_rst_l                    0
+ec_sci_l                         1
+ovp                              1
+ec_smb_ck0                       0
+ec_smb_da0                       0
+ec_smb_ck1                       0
+ec_smb_da1                       0
+ec_smb_ck2                       0
+ec_smb_da2                       0
+ec_smb_ck3                       0
+ec_smb_da3                       0
+ec_smb_ck4                       0
+ec_smb_da4                       0
+ec_smb_s0_ck5                    0
+ec_smb_s0_da5                    0
+ssd2_pwr_en                      1
+ssd_gpu_sel                      0
+ec_smb_ck6                       0
+ec_smb_da6                       0
+ec_smb_ck7                       0
+ec_smb_da7                       0
+mic_sw                           0
+gpu_b_gpio00_ec                  1
+gpu_b_gpio01_ec                  1
+gpu_b_gpio02_ec                  1
+gpu_b_gpio03_ec                  0
+fp_en                            1
+5valw_c_en                       1
+gpu_b_dp_hpd                     0
+ec_mute_l                        1
+gpu_3v_5v_en                     1
+wlan_en                          1
+gpu_vsys_en                      1
+apu_ec_int_l                     1
+rtc_dis                          0
+gpu_vdap_en                      1
+ec_pwm_en                        1
+ac_present_pd_l                  1
+sm_panel_bken_ec                 1
+ec_b2b_dis                       0
+gpu_fan_en                       1
+usb30_hub_en                     1
+module_oc_l                      1
+ec_edp_reset                     1
+gpu_alert_l                      1
+on_off_btn_l                     1
+chassis_open_l                   1
+hw_acav_in                       1
+lid_sw_l                         1
+0p75_1p8valw_pwren               1
+hub_b_pwr_en                     1
+als_int_l                        1
+pch_pwr_en                       1
+h_prochot_l                      1
+slp_s3_l                         1
+slp_s5_l                         1
+cam_en                           1
+sys_pwrgd_ec                     1
+vr_on                            1
+susp_l                           1
+left_side                        0
+right_side                       1
+syson                            1
+ec_edp_pwm                       0
+fp_control                       0
+battery_present                  0
+mux_a0                           0
+mux_a1                           0
+mux_a2                           1
+f_beam_open_l                    1
+enbkl_apu                        1
+0p75vs_pwr_en                    1
+apu_aud_pwr_en                   1
+i2c_int_tp_1                     1
+i2c_int_tp_2                     1
+cam_sw                           0
+spok                             1
+vr_pwrgd                         1
+gpu_i2c_s5_int                   1
+usb_hub_re_en                    1
+wl_rst_l                         1
+ec_sense_al                      1
+en_invpwr                        1
+sleep_l                          1
+pd_b_i2c_int_ec_l                1
+pd_a_i2c_int_ec_l                1
+pbtn_out_l                       1
+thermtrip                        1
+dgpu_pwr_en                      1
+apu_ec_int2_l                    1
+ssd1_pwr_en                      1
+edp_mux_pwm_sw                   0
+--- 2026-09-03 23:55:25.753 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      97%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    84.175 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  16.606 V
+  Present Rate:     2670 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 56 C
+  F75303_CPU:   51 C
+  F75303_DDR:   50 C
+  APU:          50 C
+  dGPU VR:      51 C
+  dGPU VRAM:    50 C
+  dGPU AMB:     51 C
+  dGPU temp:    48 C
+  Left Fan:   1739 RPM
+  Right Fan:  1657 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:55:40.782 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      97%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    83.288 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  16.431 V
+  Present Rate:     3118 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 56 C
+  F75303_CPU:   51 C
+  F75303_DDR:   51 C
+  APU:          59 C
+  dGPU VR:      52 C
+  dGPU VRAM:    49 C
+  dGPU AMB:     51 C
+  dGPU temp:    49 C
+  Left Fan:   1876 RPM
+  Right Fan:  1800 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:55:55.801 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      97%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    80.875 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.955 V
+  Present Rate:     3558 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 55 C
+  F75303_CPU:   51 C
+  F75303_DDR:   51 C
+  APU:          75 C
+  dGPU VR:      52 C
+  dGPU VRAM:    50 C
+  dGPU AMB:     51 C
+  dGPU temp:    49 C
+  Left Fan:   2060 RPM
+  Right Fan:  1981 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:56:10.850 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      96%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    81.468 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  16.72 V
+  Present Rate:     4169 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 56 C
+  F75303_CPU:   51 C
+  F75303_DDR:   53 C
+  APU:          76 C
+  dGPU VR:      50 C
+  dGPU VRAM:    50 C
+  dGPU AMB:     50 C
+  dGPU temp:    46 C
+  Left Fan:   2439 RPM
+  Right Fan:  2507 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:56:10.850 (slow) ---
+Expansion Bay
+  Enabled:       true
+  No fault:      true
+  Door closed:   true
+  Board:         DualInterposer
+  Serial Number: FRAKMQCPA15424004M  
+  Config:        Pcie8x1
+  Vendor:        NvidiaGn22
+  Expansion Bay EEPROM
+    Valid:       true
+    HW Version:  4.0
+EC Uptime
+  Time since EC Boot:      12h 01m 43s
+  AP Resets since EC Boot: 3
+  EC Reset Flags
+    PowerOn
+    Hibernate
+  Recent AP Resets
+      Reset Time:          10h 10m 11s
+            Cause:         ShutdownG3
+      Reset Time:          11h 37m 21s
+            Cause:         ShutdownG3
+      Reset Time:          11h 42m 46s
+            Cause:         ShutdownG3
+Minimum 0%, Maximum 80%
+GPIO dump:
+ec_soc_rsmrst_l                  1
+ec_espi_rst_l                    0
+ec_sci_l                         1
+ovp                              1
+ec_smb_ck0                       0
+ec_smb_da0                       0
+ec_smb_ck1                       0
+ec_smb_da1                       0
+ec_smb_ck2                       0
+ec_smb_da2                       0
+ec_smb_ck3                       0
+ec_smb_da3                       0
+ec_smb_ck4                       0
+ec_smb_da4                       0
+ec_smb_s0_ck5                    0
+ec_smb_s0_da5                    0
+ssd2_pwr_en                      1
+ssd_gpu_sel                      0
+ec_smb_ck6                       0
+ec_smb_da6                       0
+ec_smb_ck7                       0
+ec_smb_da7                       0
+mic_sw                           0
+gpu_b_gpio00_ec                  1
+gpu_b_gpio01_ec                  1
+gpu_b_gpio02_ec                  1
+gpu_b_gpio03_ec                  0
+fp_en                            1
+5valw_c_en                       1
+gpu_b_dp_hpd                     0
+ec_mute_l                        1
+gpu_3v_5v_en                     1
+wlan_en                          1
+gpu_vsys_en                      1
+apu_ec_int_l                     1
+rtc_dis                          0
+gpu_vdap_en                      1
+ec_pwm_en                        1
+ac_present_pd_l                  1
+sm_panel_bken_ec                 1
+ec_b2b_dis                       0
+gpu_fan_en                       1
+usb30_hub_en                     1
+module_oc_l                      1
+ec_edp_reset                     1
+gpu_alert_l                      1
+on_off_btn_l                     1
+chassis_open_l                   1
+hw_acav_in                       1
+lid_sw_l                         1
+0p75_1p8valw_pwren               1
+hub_b_pwr_en                     1
+als_int_l                        1
+pch_pwr_en                       1
+h_prochot_l                      1
+slp_s3_l                         1
+slp_s5_l                         1
+cam_en                           1
+sys_pwrgd_ec                     1
+vr_on                            1
+susp_l                           1
+left_side                        0
+right_side                       1
+syson                            1
+ec_edp_pwm                       0
+fp_control                       0
+battery_present                  0
+mux_a0                           0
+mux_a1                           0
+mux_a2                           0
+f_beam_open_l                    1
+enbkl_apu                        1
+0p75vs_pwr_en                    1
+apu_aud_pwr_en                   1
+i2c_int_tp_1                     1
+i2c_int_tp_2                     1
+cam_sw                           0
+spok                             1
+vr_pwrgd                         1
+gpu_i2c_s5_int                   1
+usb_hub_re_en                    1
+wl_rst_l                         1
+ec_sense_al                      1
+en_invpwr                        1
+sleep_l                          1
+pd_b_i2c_int_ec_l                1
+pd_a_i2c_int_ec_l                1
+pbtn_out_l                       1
+thermtrip                        1
+dgpu_pwr_en                      1
+apu_ec_int2_l                    1
+ssd1_pwr_en                      1
+edp_mux_pwm_sw                   0
+--- 2026-09-03 23:56:25.872 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  17800mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      96%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 5069 mAh
+                    79.350 Wh
+  Charge level:     100%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.654 V
+  Present Rate:     5148 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 56 C
+  F75303_CPU:   50 C
+  F75303_DDR:   55 C
+  APU:          89 C
+  dGPU VR:      49 C
+  dGPU VRAM:    48 C
+  dGPU AMB:     47 C
+  dGPU temp:    45 C
+  Left Fan:   3140 RPM
+  Right Fan:  2849 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:56:40.907 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  16032mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      95%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4813 mAh
+                    77.388 Wh
+  Charge level:     94%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  16.79 V
+  Present Rate:     5223 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   51 C
+  F75303_DDR:   57 C
+  APU:          73 C
+  dGPU VR:      49 C
+  dGPU VRAM:    49 C
+  dGPU AMB:     49 C
+  dGPU temp:    44 C
+  Left Fan:   3523 RPM
+  Right Fan:  3366 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:56:55.937 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15864mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      95%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4793 mAh
+                    75.854 Wh
+  Charge level:     94%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.826 V
+  Present Rate:     4747 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   52 C
+  F75303_DDR:   58 C
+  APU:          70 C
+  dGPU VR:      49 C
+  dGPU VRAM:    48 C
+  dGPU AMB:     48 C
+  dGPU temp:    45 C
+  Left Fan:   3523 RPM
+  Right Fan:  3449 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:57:10.955 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15924mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      95%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4773 mAh
+                    75.990 Wh
+  Charge level:     94%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.921 V
+  Present Rate:     4606 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   52 C
+  F75303_DDR:   57 C
+  APU:          68 C
+  dGPU VR:      49 C
+  dGPU VRAM:    48 C
+  dGPU AMB:     49 C
+  dGPU temp:    44 C
+  Left Fan:   3536 RPM
+  Right Fan:  3378 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:57:10.955 (slow) ---
+Expansion Bay
+  Enabled:       true
+  No fault:      true
+  Door closed:   true
+  Board:         DualInterposer
+  Serial Number: FRAKMQCPA15424004M  
+  Config:        Pcie8x1
+  Vendor:        NvidiaGn22
+  Expansion Bay EEPROM
+    Valid:       true
+    HW Version:  4.0
+EC Uptime
+  Time since EC Boot:      12h 02m 44s
+  AP Resets since EC Boot: 3
+  EC Reset Flags
+    PowerOn
+    Hibernate
+  Recent AP Resets
+      Reset Time:          10h 10m 11s
+            Cause:         ShutdownG3
+      Reset Time:          11h 37m 21s
+            Cause:         ShutdownG3
+      Reset Time:          11h 42m 46s
+            Cause:         ShutdownG3
+Minimum 0%, Maximum 80%
+GPIO dump:
+ec_soc_rsmrst_l                  1
+ec_espi_rst_l                    0
+ec_sci_l                         1
+ovp                              1
+ec_smb_ck0                       0
+ec_smb_da0                       0
+ec_smb_ck1                       0
+ec_smb_da1                       0
+ec_smb_ck2                       0
+ec_smb_da2                       0
+ec_smb_ck3                       0
+ec_smb_da3                       0
+ec_smb_ck4                       0
+ec_smb_da4                       0
+ec_smb_s0_ck5                    0
+ec_smb_s0_da5                    0
+ssd2_pwr_en                      1
+ssd_gpu_sel                      0
+ec_smb_ck6                       0
+ec_smb_da6                       0
+ec_smb_ck7                       0
+ec_smb_da7                       0
+mic_sw                           0
+gpu_b_gpio00_ec                  1
+gpu_b_gpio01_ec                  1
+gpu_b_gpio02_ec                  1
+gpu_b_gpio03_ec                  0
+fp_en                            1
+5valw_c_en                       1
+gpu_b_dp_hpd                     0
+ec_mute_l                        1
+gpu_3v_5v_en                     1
+wlan_en                          1
+gpu_vsys_en                      1
+apu_ec_int_l                     1
+rtc_dis                          0
+gpu_vdap_en                      1
+ec_pwm_en                        1
+ac_present_pd_l                  1
+sm_panel_bken_ec                 1
+ec_b2b_dis                       0
+gpu_fan_en                       1
+usb30_hub_en                     1
+module_oc_l                      1
+ec_edp_reset                     1
+gpu_alert_l                      1
+on_off_btn_l                     1
+chassis_open_l                   1
+hw_acav_in                       1
+lid_sw_l                         1
+0p75_1p8valw_pwren               1
+hub_b_pwr_en                     1
+als_int_l                        1
+pch_pwr_en                       1
+h_prochot_l                      1
+slp_s3_l                         1
+slp_s5_l                         1
+cam_en                           1
+sys_pwrgd_ec                     1
+vr_on                            1
+susp_l                           1
+left_side                        0
+right_side                       1
+syson                            1
+ec_edp_pwm                       0
+fp_control                       0
+battery_present                  0
+mux_a0                           0
+mux_a1                           1
+mux_a2                           0
+f_beam_open_l                    1
+enbkl_apu                        1
+0p75vs_pwr_en                    1
+apu_aud_pwr_en                   1
+i2c_int_tp_1                     1
+i2c_int_tp_2                     1
+cam_sw                           0
+spok                             1
+vr_pwrgd                         1
+gpu_i2c_s5_int                   1
+usb_hub_re_en                    1
+wl_rst_l                         1
+ec_sense_al                      1
+en_invpwr                        1
+sleep_l                          1
+pd_b_i2c_int_ec_l                1
+pd_a_i2c_int_ec_l                1
+pbtn_out_l                       1
+thermtrip                        1
+dgpu_pwr_en                      1
+apu_ec_int2_l                    1
+ssd1_pwr_en                      1
+edp_mux_pwm_sw                   0
+--- 2026-09-03 23:57:25.979 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15860mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      94%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4752 mAh
+                    75.257 Wh
+  Charge level:     93%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.837 V
+  Present Rate:     4693 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   52 C
+  F75303_DDR:   58 C
+  APU:          69 C
+  dGPU VR:      49 C
+  dGPU VRAM:    47 C
+  dGPU AMB:     48 C
+  dGPU temp:    44 C
+  Left Fan:   3614 RPM
+  Right Fan:  3461 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:57:41.013 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15840mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      94%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4732 mAh
+                    75.30 Wh
+  Charge level:     93%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.856 V
+  Present Rate:     4621 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   52 C
+  F75303_DDR:   57 C
+  APU:          67 C
+  dGPU VR:      49 C
+  dGPU VRAM:    46 C
+  dGPU AMB:     48 C
+  dGPU temp:    44 C
+  Left Fan:   3425 RPM
+  Right Fan:  3223 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:57:56.054 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15852mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      93%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4712 mAh
+                    74.807 Wh
+  Charge level:     92%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.876 V
+  Present Rate:     4575 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   53 C
+  F75303_DDR:   57 C
+  APU:          67 C
+  dGPU VR:      49 C
+  dGPU VRAM:    47 C
+  dGPU AMB:     49 C
+  dGPU temp:    44 C
+  Left Fan:   3366 RPM
+  Right Fan:  3223 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:58:11.107 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15808mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      93%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4691 mAh
+                    74.141 Wh
+  Charge level:     92%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.805 V
+  Present Rate:     4566 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 59 C
+  F75303_CPU:   53 C
+  F75303_DDR:   57 C
+  APU:          67 C
+  dGPU VR:      49 C
+  dGPU VRAM:    46 C
+  dGPU AMB:     48 C
+  dGPU temp:    44 C
+  Left Fan:   3366 RPM
+  Right Fan:  3223 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:58:11.107 (slow) ---
+Expansion Bay
+  Enabled:       true
+  No fault:      true
+  Door closed:   true
+  Board:         DualInterposer
+  Serial Number: FRAKMQCPA15424004M  
+  Config:        Pcie8x1
+  Vendor:        NvidiaGn22
+  Expansion Bay EEPROM
+    Valid:       true
+    HW Version:  4.0
+EC Uptime
+  Time since EC Boot:      12h 03m 44s
+  AP Resets since EC Boot: 3
+  EC Reset Flags
+    PowerOn
+    Hibernate
+  Recent AP Resets
+      Reset Time:          10h 10m 11s
+            Cause:         ShutdownG3
+      Reset Time:          11h 37m 21s
+            Cause:         ShutdownG3
+      Reset Time:          11h 42m 46s
+            Cause:         ShutdownG3
+Minimum 0%, Maximum 80%
+GPIO dump:
+ec_soc_rsmrst_l                  1
+ec_espi_rst_l                    0
+ec_sci_l                         1
+ovp                              1
+ec_smb_ck0                       0
+ec_smb_da0                       0
+ec_smb_ck1                       0
+ec_smb_da1                       0
+ec_smb_ck2                       0
+ec_smb_da2                       0
+ec_smb_ck3                       0
+ec_smb_da3                       0
+ec_smb_ck4                       0
+ec_smb_da4                       0
+ec_smb_s0_ck5                    0
+ec_smb_s0_da5                    0
+ssd2_pwr_en                      1
+ssd_gpu_sel                      0
+ec_smb_ck6                       0
+ec_smb_da6                       0
+ec_smb_ck7                       0
+ec_smb_da7                       0
+mic_sw                           0
+gpu_b_gpio00_ec                  1
+gpu_b_gpio01_ec                  1
+gpu_b_gpio02_ec                  1
+gpu_b_gpio03_ec                  0
+fp_en                            1
+5valw_c_en                       1
+gpu_b_dp_hpd                     0
+ec_mute_l                        1
+gpu_3v_5v_en                     1
+wlan_en                          1
+gpu_vsys_en                      1
+apu_ec_int_l                     1
+rtc_dis                          0
+gpu_vdap_en                      1
+ec_pwm_en                        1
+ac_present_pd_l                  1
+sm_panel_bken_ec                 1
+ec_b2b_dis                       0
+gpu_fan_en                       1
+usb30_hub_en                     1
+module_oc_l                      1
+ec_edp_reset                     1
+gpu_alert_l                      1
+on_off_btn_l                     1
+chassis_open_l                   1
+hw_acav_in                       1
+lid_sw_l                         1
+0p75_1p8valw_pwren               1
+hub_b_pwr_en                     1
+als_int_l                        1
+pch_pwr_en                       1
+h_prochot_l                      1
+slp_s3_l                         1
+slp_s5_l                         1
+cam_en                           1
+sys_pwrgd_ec                     1
+vr_on                            1
+susp_l                           1
+left_side                        0
+right_side                       1
+syson                            1
+ec_edp_pwm                       0
+fp_control                       0
+battery_present                  0
+mux_a0                           0
+mux_a1                           0
+mux_a2                           0
+f_beam_open_l                    1
+enbkl_apu                        1
+0p75vs_pwr_en                    1
+apu_aud_pwr_en                   1
+i2c_int_tp_1                     1
+i2c_int_tp_2                     1
+cam_sw                           0
+spok                             1
+vr_pwrgd                         1
+gpu_i2c_s5_int                   1
+usb_hub_re_en                    1
+wl_rst_l                         1
+ec_sense_al                      1
+en_invpwr                        1
+sleep_l                          1
+pd_b_i2c_int_ec_l                1
+pd_a_i2c_int_ec_l                1
+pbtn_out_l                       1
+thermtrip                        1
+dgpu_pwr_en                      1
+apu_ec_int2_l                    1
+ssd1_pwr_en                      1
+edp_mux_pwm_sw                   0
+--- 2026-09-03 23:58:26.128 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15836mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      93%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4671 mAh
+                    73.834 Wh
+  Charge level:     92%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.807 V
+  Present Rate:     4577 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 58 C
+  F75303_CPU:   54 C
+  F75303_DDR:   56 C
+  APU:          67 C
+  dGPU VR:      49 C
+  dGPU VRAM:    46 C
+  dGPU AMB:     48 C
+  dGPU temp:    44 C
+  Left Fan:   3355 RPM
+  Right Fan:  3223 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:58:41.153 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15756mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      92%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4650 mAh
+                    73.386 Wh
+  Charge level:     91%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.782 V
+  Present Rate:     4620 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 59 C
+  F75303_CPU:   54 C
+  F75303_DDR:   57 C
+  APU:          66 C
+  dGPU VR:      48 C
+  dGPU VRAM:    46 C
+  dGPU AMB:     48 C
+  dGPU temp:    44 C
+  Left Fan:   3355 RPM
+  Right Fan:  3223 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:58:56.177 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15788mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      92%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4630 mAh
+                    73.84 Wh
+  Charge level:     91%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.785 V
+  Present Rate:     4631 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 59 C
+  F75303_CPU:   54 C
+  F75303_DDR:   57 C
+  APU:          67 C
+  dGPU VR:      49 C
+  dGPU VRAM:    46 C
+  dGPU AMB:     48 C
+  dGPU temp:    44 C
+  Left Fan:   3366 RPM
+  Right Fan:  3223 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:59:11.214 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15724mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      91%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4609 mAh
+                    72.448 Wh
+  Charge level:     90%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.719 V
+  Present Rate:     4658 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 59 C
+  F75303_CPU:   54 C
+  F75303_DDR:   56 C
+  APU:          66 C
+  dGPU VR:      49 C
+  dGPU VRAM:    46 C
+  dGPU AMB:     49 C
+  dGPU temp:    44 C
+  Left Fan:   3355 RPM
+  Right Fan:  3223 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:59:11.214 (slow) ---
+Expansion Bay
+  Enabled:       true
+  No fault:      true
+  Door closed:   true
+  Board:         DualInterposer
+  Serial Number: FRAKMQCPA15424004M  
+  Config:        Pcie8x1
+  Vendor:        NvidiaGn22
+  Expansion Bay EEPROM
+    Valid:       true
+    HW Version:  4.0
+EC Uptime
+  Time since EC Boot:      12h 04m 44s
+  AP Resets since EC Boot: 3
+  EC Reset Flags
+    PowerOn
+    Hibernate
+  Recent AP Resets
+      Reset Time:          10h 10m 11s
+            Cause:         ShutdownG3
+      Reset Time:          11h 37m 21s
+            Cause:         ShutdownG3
+      Reset Time:          11h 42m 46s
+            Cause:         ShutdownG3
+Minimum 0%, Maximum 80%
+GPIO dump:
+ec_soc_rsmrst_l                  1
+ec_espi_rst_l                    0
+ec_sci_l                         1
+ovp                              1
+ec_smb_ck0                       0
+ec_smb_da0                       0
+ec_smb_ck1                       0
+ec_smb_da1                       0
+ec_smb_ck2                       0
+ec_smb_da2                       0
+ec_smb_ck3                       0
+ec_smb_da3                       0
+ec_smb_ck4                       0
+ec_smb_da4                       0
+ec_smb_s0_ck5                    0
+ec_smb_s0_da5                    0
+ssd2_pwr_en                      1
+ssd_gpu_sel                      0
+ec_smb_ck6                       0
+ec_smb_da6                       0
+ec_smb_ck7                       0
+ec_smb_da7                       0
+mic_sw                           0
+gpu_b_gpio00_ec                  1
+gpu_b_gpio01_ec                  1
+gpu_b_gpio02_ec                  1
+gpu_b_gpio03_ec                  0
+fp_en                            1
+5valw_c_en                       1
+gpu_b_dp_hpd                     0
+ec_mute_l                        1
+gpu_3v_5v_en                     1
+wlan_en                          1
+gpu_vsys_en                      1
+apu_ec_int_l                     1
+rtc_dis                          0
+gpu_vdap_en                      1
+ec_pwm_en                        1
+ac_present_pd_l                  1
+sm_panel_bken_ec                 1
+ec_b2b_dis                       0
+gpu_fan_en                       1
+usb30_hub_en                     1
+module_oc_l                      1
+ec_edp_reset                     1
+gpu_alert_l                      1
+on_off_btn_l                     1
+chassis_open_l                   1
+hw_acav_in                       1
+lid_sw_l                         1
+0p75_1p8valw_pwren               1
+hub_b_pwr_en                     1
+als_int_l                        1
+pch_pwr_en                       1
+h_prochot_l                      1
+slp_s3_l                         1
+slp_s5_l                         1
+cam_en                           1
+sys_pwrgd_ec                     1
+vr_on                            1
+susp_l                           1
+left_side                        0
+right_side                       1
+syson                            1
+ec_edp_pwm                       0
+fp_control                       0
+battery_present                  0
+mux_a0                           0
+mux_a1                           0
+mux_a2                           0
+f_beam_open_l                    1
+enbkl_apu                        1
+0p75vs_pwr_en                    1
+apu_aud_pwr_en                   1
+i2c_int_tp_1                     1
+i2c_int_tp_2                     1
+cam_sw                           0
+spok                             1
+vr_pwrgd                         1
+gpu_i2c_s5_int                   1
+usb_hub_re_en                    1
+wl_rst_l                         1
+ec_sense_al                      1
+en_invpwr                        1
+sleep_l                          1
+pd_b_i2c_int_ec_l                1
+pd_a_i2c_int_ec_l                1
+pbtn_out_l                       1
+thermtrip                        1
+dgpu_pwr_en                      1
+apu_ec_int2_l                    1
+ssd1_pwr_en                      1
+edp_mux_pwm_sw                   0
+--- 2026-09-03 23:59:26.249 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15696mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      91%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4588 mAh
+                    72.109 Wh
+  Charge level:     90%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.717 V
+  Present Rate:     4667 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 59 C
+  F75303_CPU:   53 C
+  F75303_DDR:   56 C
+  APU:          66 C
+  dGPU VR:      49 C
+  dGPU VRAM:    46 C
+  dGPU AMB:     48 C
+  dGPU temp:    44 C
+  Left Fan:   3366 RPM
+  Right Fan:  3223 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:59:41.277 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15728mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      91%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4568 mAh
+                    71.836 Wh
+  Charge level:     90%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.726 V
+  Present Rate:     4637 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 59 C
+  F75303_CPU:   53 C
+  F75303_DDR:   57 C
+  APU:          66 C
+  dGPU VR:      49 C
+  dGPU VRAM:    46 C
+  dGPU AMB:     48 C
+  dGPU temp:    43 C
+  Left Fan:   3355 RPM
+  Right Fan:  3223 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true
+--- 2026-09-03 23:59:56.313 ---
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            connected
+  Charger Voltage:  15720mV
+  Charger Current:  0mA
+                    0.00C
+  Chg Input Current:9000mA
+  Battery SoC:      90%
+Battery Status
+  AC is:            connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 4547 mAh
+                    71.351 Wh
+  Charge level:     89%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.692 V
+  Present Rate:     4670 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+  F75303_Local: 59 C
+  F75303_CPU:   54 C
+  F75303_DDR:   57 C
+  APU:          66 C
+  dGPU VR:      48 C
+  dGPU VRAM:    46 C
+  dGPU AMB:     48 C
+  dGPU temp:    44 C
+  Left Fan:   3425 RPM
+  Right Fan:  3276 RPM
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+AP_THROTTLE_STATUS (0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE port4 (0x3E23):
+Response (34 bytes):
+00000000: 0201 0001 0001 0100 80bb 8813 0100 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+ACTIVE_CHARGE_PD_CHIP (0x3E18):
+Response (21 bytes):
+00000000: 0100 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 00                             .....
+HW_DIAG (0x3E1C):
+Response (26 bytes):
+00000000: 4000 0000 0101 0000 0000 0000 0000 0000  @...............
+00000010: 0000 0000 0000 0000 0000                 ..........
+GPIO h_prochot_l:
+GPIO h_prochot_l: true

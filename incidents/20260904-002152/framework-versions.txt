@@ -1,0 +1,58 @@
+﻿Tool Version:     0.6.5
+OS Version:       10.0.0.26200
+Mainboard Hardware
+  Type:           Laptop 16 (AMD Ryzen AI 300 Series)
+  Revision:       MassProduction
+UEFI BIOS
+  Version:        04.01
+  Release Date:   06/12/2026
+EC Firmware
+  Build version:  tulip-4.0.1-9b2a0b1 2026-06-11 02:50:58 lotus@ip-172-26-3-226
+  Current image:  RO
+PD Controllers
+  PD 0:            0.0.22 (MainFw)
+  PD 1:            0.0.22 (MainFw)
+  PD 2:            0.0.22 (MainFw)
+Intel Retimers (Potential)
+Parade Retimers
+  dGPU:           11.0.1.0
+Laptop Webcam Module (2nd Gen)
+  Firmware Version: 1.1.1
+USB Hub RTL5432
+  Firmware Version: 0.0.7
+Laptop 16 Keyboard Module - ISO
+  Firmware Version: 0.3.1
+  Location: [ ] [X] [ ]       [ ] [ ]
+Touchpad
+  Firmware Version: v0905
+HDMI Expansion Card
+  Active Firmware:  106 (3.0.10.06A, MainFw)
+NVIDIA GPU
+  Name:           NVIDIA GeForce RTX 5070 Laptop GPU
+  VBIOS Version:  98.06.3e.00.0a
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            not connected
+  Charger Voltage:  16200mV
+  Charger Current:  2744mA
+                    0.50C
+  Chg Input Current:10000mA
+  Battery SoC:      76%
+Battery Status
+  AC is:            not connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 3851 mAh
+                    60.695 Wh
+  Charge level:     75%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.761 V
+  Present Rate:     2914 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging

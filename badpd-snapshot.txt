@@ -1,0 +1,89 @@
+snapshot 2026-09-04T00:47:01.1238357+01:00 - charger in bad LEFT port
+Right / Ports 01
+  Silicon ID:     0x3580
+  Mode:           MainFw
+  Flash Row Size: 256 B
+  Ports Enabled:  0, 1
+  Bootloader Version:   Base: 3.6.0.009,  App: 0.0.01
+  FW1 (Backup) Version: Base: 3.7.0.197,  App: 0.0.22
+  FW2 (Main)   Version: Base: 3.7.0.197,  App: 0.0.22
+Left / Ports 23
+  Silicon ID:     0x3580
+  Mode:           MainFw
+  Flash Row Size: 256 B
+  Ports Enabled:  0, 1
+  Bootloader Version:   Base: 3.6.0.009,  App: 0.0.01
+  FW1 (Backup) Version: Base: 3.7.0.197,  App: 0.0.22
+  FW2 (Main)   Version: Base: 3.7.0.197,  App: 0.0.22
+Back
+  Silicon ID:     0x3581
+  Mode:           MainFw
+  Flash Row Size: 256 B
+  Ports Enabled:  0
+  Bootloader Version:   Base: 3.6.0.009,  App: 0.0.01
+  FW1 (Backup) Version: Base: 3.7.0.197,  App: 0.0.22
+  FW2 (Main)   Version: Base: 3.7.0.197,  App: 0.0.22
+USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            not connected
+  Charger Voltage:  17600mV
+  Charger Current:  5488mA
+                    1.00C
+  Chg Input Current:800mA
+  Battery SoC:      76%
+Battery Status
+  AC is:            not connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 3804 mAh
+                    59.783 Wh
+  Charge level:     75%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.716 V
+  Present Rate:     2158 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging
+AP_THROTTLE(0x3E22):
+Response (22 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000                           ......
+PD_PORT_STATE p2(0x3E23):
+Response (34 bytes):
+00000000: 0101 0101 0100 0000 8813 a802 0000 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
+PD_PORT_STATE p3(0x3E23):
+Response (34 bytes):
+00000000: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000010: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+00000020: 0000                                     ..
