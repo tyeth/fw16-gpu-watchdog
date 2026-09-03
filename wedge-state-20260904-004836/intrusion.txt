@@ -1,0 +1,7 @@
+== framework_tool --intrusion @ 2026-09-04T00:48:40.9313036+01:00
+Chassis status:
+  Coin cell ever removed:   false
+  Chassis currently open:   false
+  Chassis ever opened:      false
+  Chassis opened:           0 times
+  Chassis opened while off: 0 times

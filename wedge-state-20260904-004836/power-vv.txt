@@ -1,0 +1,27 @@
+== framework_tool --power -vv @ 2026-09-04T00:48:38.2520619+01:00
+Battery Cutoff:     Not cut off
+Charger Status
+  AC is:            not connected
+  Charger Voltage:  17600mV
+  Charger Current:  5488mA
+                    1.00C
+  Chg Input Current:800mA
+  Battery SoC:      74%
+Battery Status
+  AC is:            not connected
+  Battery is:       connected
+  Battery LFCC:     5069 mAh (Last Full Charge Capacity)
+  Battery Capacity: 3747 mAh
+                    59.359 Wh
+  Charge level:     73%
+  Manufacturer:     NVT
+  Model Number:     FRANDBA
+  Serial Number:    036E
+  Battery Type:     LION
+  Present Voltage:  15.842 V
+  Present Rate:     1821 mA
+  Design Capacity:  5491 mAh
+                    85.0 Wh
+  Design Voltage:   15.480 V
+  Cycle Count:      398
+  Battery discharging

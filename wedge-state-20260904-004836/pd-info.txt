@@ -1,0 +1,25 @@
+== framework_tool --pd-info @ 2026-09-04T00:48:38.3285086+01:00
+Right / Ports 01
+  Silicon ID:     0x3580
+  Mode:           MainFw
+  Flash Row Size: 256 B
+  Ports Enabled:  0, 1
+  Bootloader Version:   Base: 3.6.0.009,  App: 0.0.01
+  FW1 (Backup) Version: Base: 3.7.0.197,  App: 0.0.22
+  FW2 (Main)   Version: Base: 3.7.0.197,  App: 0.0.22
+Left / Ports 23
+  Silicon ID:     0x3580
+  Mode:           MainFw
+  Flash Row Size: 256 B
+  Ports Enabled:  0, 1
+  Bootloader Version:   Base: 3.6.0.009,  App: 0.0.01
+  FW1 (Backup) Version: Base: 3.7.0.197,  App: 0.0.22
+  FW2 (Main)   Version: Base: 3.7.0.197,  App: 0.0.22
+Back
+  Silicon ID:     0x3581
+  Mode:           MainFw
+  Flash Row Size: 256 B
+  Ports Enabled:  0
+  Bootloader Version:   Base: 3.6.0.009,  App: 0.0.01
+  FW1 (Backup) Version: Base: 3.7.0.197,  App: 0.0.22
+  FW2 (Main)   Version: Base: 3.7.0.197,  App: 0.0.22

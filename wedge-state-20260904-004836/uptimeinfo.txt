@@ -1,0 +1,16 @@
+== framework_tool --uptimeinfo @ 2026-09-04T00:48:38.9505954+01:00
+EC Uptime
+  Time since EC Boot:      12h 54m 22s
+  AP Resets since EC Boot: 4
+  EC Reset Flags
+    PowerOn
+    Hibernate
+  Recent AP Resets
+      Reset Time:          10h 10m 11s
+            Cause:         ShutdownG3
+      Reset Time:          11h 37m 21s
+            Cause:         ShutdownG3
+      Reset Time:          11h 42m 46s
+            Cause:         ShutdownG3
+      Reset Time:          12h 23m 22s
+            Cause:         ShutdownG3

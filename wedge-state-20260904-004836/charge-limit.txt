@@ -1,0 +1,2 @@
+== framework_tool --charge-limit @ 2026-09-04T00:48:39.0013906+01:00
+Minimum 0%, Maximum 100%

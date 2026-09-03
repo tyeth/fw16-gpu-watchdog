@@ -1,0 +1,84 @@
+== windows @ 2026-09-04T00:48:42.1327008+01:00
+
+Status FriendlyName                     InstanceId                                                               
+------ ------------                     ----------                                                               
+OK     USB4 Root Router (1.0)           USB4\ROOT_DEVICE_ROUTER&VID_1022&PID_1121\5&297CDEA0&0&0                 
+OK     UCM-UCSI ACPI Device             ACPI\USBC000\0                                                           
+OK     USB4(TM) Host Router (Microsoft) PCI\VEN_1022&DEV_1120&SUBSYS_000DF111&REV_00&USB4_MS_CM\4&1DAA98CA&0&0543
+OK     USB4(TM) Host Router (Microsoft) PCI\VEN_1022&DEV_1121&SUBSYS_000DF111&REV_00&USB4_MS_CM\4&1DAA98CA&0&0643
+OK     USB4 Root Router (1.0)           USB4\ROOT_DEVICE_ROUTER&VID_1022&PID_1120\5&1C1E0D52&0&0                 
+
+
+
+
+
+Caption                     : Internal Battery
+Description                 : Internal Battery
+InstallDate                 : 
+Name                        : FRANDBA
+Status                      : OK
+Availability                : 3
+ConfigManagerErrorCode      : 
+ConfigManagerUserConfig     : 
+CreationClassName           : Win32_Battery
+DeviceID                    : 036ENVTFRANDBA
+ErrorCleared                : 
+ErrorDescription            : 
+LastErrorCode               : 
+PNPDeviceID                 : 
+PowerManagementCapabilities : {1}
+PowerManagementSupported    : False
+StatusInfo                  : 
+SystemCreationClassName     : Win32_ComputerSystem
+SystemName                  : FRAMEWORK16
+BatteryStatus               : 1
+Chemistry                   : 6
+DesignCapacity              : 
+DesignVoltage               : 15790
+EstimatedChargeRemaining    : 73
+EstimatedRunTime            : 111
+ExpectedLife                : 
+FullChargeCapacity          : 
+MaxRechargeTime             : 
+SmartBatteryVersion         : 
+TimeOnBattery               : 
+TimeToFullCharge            : 
+BatteryRechargeTime         : 
+ExpectedBatteryLife         : 
+PSComputerName              : 
+CimClass                    : root/cimv2:Win32_Battery
+CimInstanceProperties       : {Caption, Description, InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+
+
+
+Caption            : 
+Description        : 
+Name               : 
+Frequency_Object   : 
+Frequency_PerfTime : 
+Frequency_Sys100NS : 
+Timestamp_Object   : 
+Timestamp_PerfTime : 
+Timestamp_Sys100NS : 
+Active             : True
+ChargeRate         : 0
+Charging           : False
+Critical           : False
+DischargeRate      : 31233
+Discharging        : True
+InstanceName       : ACPI\PNP0C0A\0_0
+PowerOnline        : False
+RemainingCapacity  : 57957
+Tag                : 1
+Voltage            : 15790
+PSComputerName     : 
+
+
+
+
+Battery life report saved to file path C:\Users\tyeth\Downloads\gh_madness\gpu-watchdog\wedge-state-20260904-004836\batteryreport.html.
+capture complete 2026-09-04T00:48:44.6856785+01:00

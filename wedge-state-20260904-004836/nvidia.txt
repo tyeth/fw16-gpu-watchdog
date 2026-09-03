@@ -1,0 +1,39 @@
+== framework_tool --nvidia @ 2026-09-04T00:48:41.0617031+01:00
+NVIDIA GPU
+Identification
+  Name:              NVIDIA GeForce RTX 5070 Laptop GPU
+  Architecture:      Blackwell
+  Serial Number:     0
+  Part Number:       
+  Board ID:          49408
+Firmware
+  VBIOS Version:     98.06.3e.00.0a
+  InfoROM Version:   G005.0000.98.01
+PCI
+  Bus:               C1
+  Device:            00
+  Domain:            0000
+  Device ID:         2D5810DE
+  Subsystem ID:      000EF111
+Power
+  Performance State: Zero
+  Current Usage:     17.34 W
+  Default Limit:     100.00 W
+  Min Limit:         5.00 W
+  Max Limit:         100.00 W
+  Total Energy:      24119.40 J
+Thermal
+  GPU Temperature:   52C
+  Number of Fans:    0
+Throttle Reasons
+  Software Power Cap
+Utilization
+  GPU:               0%
+  Memory:            0%
+Memory
+  Total:             7.96 GB
+  Used:              0.00 GB
+  Free:              7.71 GB
+Display
+  Active:            No
+  Connected:         No

@@ -1,0 +1,11 @@
+== framework_tool --thermal @ 2026-09-04T00:48:38.8175082+01:00
+  F75303_Local: 46 C
+  F75303_CPU:   46 C
+  F75303_DDR:   47 C
+  APU:          49 C
+  dGPU VR:      50 C
+  dGPU VRAM:    52 C
+  dGPU AMB:     49 C
+  dGPU temp:    50 C
+  Left Fan:   1091 RPM
+  Right Fan:  1070 RPM

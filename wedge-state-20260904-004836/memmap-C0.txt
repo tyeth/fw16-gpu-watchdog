@@ -1,0 +1,2 @@
+== framework_tool --host-command 0x0007 0 0xC0 0x3F @ 2026-09-04T00:48:42.1033469+01:00
+EC command failed: Response(InvalidCommand)
