@@ -1,0 +1,8 @@
+﻿
+TaskName             State
+--------             -----
+GpuEcConsoleFollow Running
+GpuFreeHeartbeat   Running
+GpuPowerWatchdog   Running
+
+

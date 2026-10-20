@@ -1,0 +1,28 @@
+﻿USB-C Port 0:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 3000 mA, 15.0 W
+  CC Polarity:   CC1
+USB-C Port 1:
+  PD Contract:   No
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         Off
+  Negotiated:    5.000 V, 1500 mA, 7.500 W
+  CC Polarity:   CC2
+USB-C Port 2:
+  PD Contract:   Yes
+  Power Role:    Source
+  Data Role:     Dfp
+  VCONN:         On
+  Negotiated:    5.000 V, 680 mA, 3.400 W
+  CC Polarity:   CC1
+  Port Partner:  Sink
+  EPR:           Inactive
+  DP Alt Mode:   DFP_D Connected, HPD High (0x81)
+USB-C Port 3:
+  PD Contract:   No
+  Power Role:    Sink
+  Data Role:     Ufp

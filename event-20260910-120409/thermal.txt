@@ -1,0 +1,10 @@
+﻿  F75303_Local: 63 C
+  F75303_CPU:   56 C
+  F75303_DDR:   58 C
+  APU:          68 C
+  dGPU VR:      32 C
+  dGPU VRAM:    31 C
+  dGPU AMB:     31 C
+  dGPU temp:    31 C
+  Left Fan:   3810 RPM
+  Right Fan:  3654 RPM

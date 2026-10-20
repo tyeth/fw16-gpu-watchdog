@@ -1,0 +1,7 @@
+﻿EC Uptime
+  Time since EC Boot:      01h 08m 06s
+  AP Resets since EC Boot: 0
+  EC Reset Flags
+    PowerOn
+    Hibernate
+  Recent AP Resets
